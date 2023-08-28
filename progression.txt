@@ -1,0 +1,17 @@
+jail 1: no restrictions
+solution: simple exploit
+
+jail 2: small blocklist
+solution: breakpoint
+
+jail 3: large blocklist
+solution: use open("flag.txt").read() function
+
+jail 3: REDUCE opcode not allowed
+solution: ADDITEMS opcode
+
+jail 4: try to hide builtins, fail
+solution: idk yet
+
+jail 5: something with a class with a vulnerability
+solution: idk yet
