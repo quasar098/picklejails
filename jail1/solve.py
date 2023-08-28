@@ -1,4 +1,5 @@
 from pickle import *
+from pickletools import dis
 
 p = b""
 
@@ -13,4 +14,6 @@ p += TUPLE1
 p += REDUCE
 p += STOP
 
+dis(p)
+print("="*50)
 print(p.hex())

@@ -5,7 +5,10 @@ jail 2: small blocklist
 solution: breakpoint
 
 jail 3: large blocklist
-solution: use open("flag.txt").read() function
+solution: use open("flag.txt").read()
+
+jail 4: larger blocklist
+solution: getattr to get builtins exec attribute
 
 jail 3: REDUCE opcode not allowed
 solution: ADDITEMS opcode
